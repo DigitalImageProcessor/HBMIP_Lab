@@ -3,122 +3,78 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- 修正favicon路径，使用相对路径 -->
+    <link rel="icon" href="../images/HBMI_favicon.png" type="image/png">
+    <link rel="shortcut icon" href="../images/HBMI_favicon.png" type="image/png">
     
-        <link rel="icon" href="https://DigitalImageProcessor.github.io/HBMIP_Lab//images/images/HBMI_favicon.png" type="image/png">
-        <link rel="shortcut icon" href="https://DigitalImageProcessor.github.io/HBMIP_Lab//images/images/HBMI_favicon.png" type="image/png">
-    
-    
-    
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/bootstrap-icons.min.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/style1NavFooter.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/style2Home.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/style3People.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/style4Publications.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/style5News.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/style6Events.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/style7About.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/style8Admonition.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/style.min.css">
-    <link rel="stylesheet" type="text/css" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/css/APlayer.min.css">
-    
-	
-    
-	
+    <!-- 所有CSS样式表改为相对路径（从people目录上级获取） -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style1NavFooter.css">
+    <link rel="stylesheet" type="text/css" href="../css/style2Home.css">
+    <link rel="stylesheet" type="text/css" href="../css/style3People.css">
+    <link rel="stylesheet" type="text/css" href="../css/style4Publications.css">
+    <link rel="stylesheet" type="text/css" href="../css/style5News.css">
+    <link rel="stylesheet" type="text/css" href="../css/style6Events.css">
+    <link rel="stylesheet" type="text/css" href="../css/style7About.css">
+    <link rel="stylesheet" type="text/css" href="../css/style8Admonition.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/APlayer.min.css">
     
     <title>HBMIP Lab | People</title>
 </head><body>
 <div class="other-white-navbar">
 	<div class="first-layer-navbar">
-		
-			
-				<a class="navbar-logo" href="../HBMIP_Lab">
-					<img height="30px" src="https://DigitalImageProcessor.github.io/HBMIP_Lab/images/HBMI.png"
-						alt="HBMIP Lab">
-				</a>
-			
-		
-
+		<!-- 导航Logo链接改为上级目录（根目录），图片路径同步修改 -->
+		<a class="navbar-logo" href="../">
+			<img height="30px" src="../images/HBMI.png" alt="HBMIP Lab">
+		</a>
 		<a class="navbar-text"> </a>
-		
-			</span>
-		
-
 	</div>
 
-	
 	<div class="second-layer-navbar">
 		<button class="menu-button" aria-label="Toggle Menu">&#9776;</button>
 		<ul class="menu-list">
-			
-				
-				
-				
-					<a class="navbar-text" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/">Home</a>
-				
-			
-				
-				
-				
-					<a class="navbar-text hightlightTitle" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/people">People</a>
-				
-			
-				
-				
-				
-					<a class="navbar-text" href="https://DigitalImageProcessor.github.io/HBMIP_Lab/publications">Publications</a>
-				
-			
+			<!-- 导航链接改为相对路径 -->
+			<a class="navbar-text" href="../">Home</a>
+			<a class="navbar-text hightlightTitle" href=".">People</a> <!-- 当前页面用.表示 -->
+			<a class="navbar-text" href="../publications">Publications</a>
 		</ul>
-		
 	</div>
 </div>
 <div id="content">
 <style>
-   
-  .container { max-width: 900px; margin: 0 auto; padding-top: 175px; }  
-  h1 { font-size: 3rem; margin-bottom: 1.5rem; text-align: center; }  
-  .lab-leadership, .co-principal-investigator { font-size: 4rem; font-weight: bold; margin-bottom: 2rem; text-align: center; }  
+   .container { max-width: 900px; margin: 0 auto; padding-top: 175px; }  
+   h1 { font-size: 3rem; margin-bottom: 1.5rem; text-align: center; }  
+   .lab-leadership, .co-principal-investigator { font-size: 4rem; font-weight: bold; margin-bottom: 2rem; text-align: center; }  
 
-  .section { margin-bottom: 3rem; }
-  .member { display: flex; align-items: center; justify-content: center; margin-bottom: 2rem; }
-  .member .avatar { flex: 0 0 150px; margin-right: 40px; }  
-  .member .avatar img { width: 200px; height: 200px; object-fit: cover; border-radius: 50%; cursor: pointer; }  
-  .member .info { flex: 1; text-align: left; }
-  .member .info .name-level { font-size: 2rem; font-weight: bold; margin-bottom: 0.6rem; }  
-  .member .info .bio { font-size: 1.1rem; }  
-  .member .info .bio p { margin-bottom: 1rem; }  
+   .section { margin-bottom: 3rem; }
+   .member { display: flex; align-items: center; justify-content: center; margin-bottom: 2rem; }
+   .member .avatar { flex: 0 0 150px; margin-right: 40px; }  
+   .member .avatar img { width: 200px; height: 200px; object-fit: cover; border-radius: 50%; cursor: pointer; }  
+   .member .info { flex: 1; text-align: left; }
+   .member .info .name-level { font-size: 2rem; font-weight: bold; margin-bottom: 0.6rem; }  
+   .member .info .bio { font-size: 1.1rem; }  
+   .member .info .bio p { margin-bottom: 1rem; }  
 
-   
-  .grid { display: grid; grid-template-columns: 1fr; gap: 2rem; }
-  @media(min-width: 600px) {
-    .grid-2 { grid-template-columns: repeat(2, 1fr); }
-  }
+   .grid { display: grid; grid-template-columns: 1fr; gap: 2rem; }
+   @media(min-width: 600px) {
+     .grid-2 { grid-template-columns: repeat(2, 1fr); }
+   }
 </style>
 
 <div class="container">
   
 
   
-    
-    
-    
-    
-    
+    <div class="lab-leadership">Lab Directors</div>
     
 
-    
-      <div class="lab-leadership">Lab Directors</div>
-    
-
-    
-      <div class="member">
+    <div class="member">
         <div class="avatar">
-          <a href="../HBMIP_Lab/people/zhangjing/">
-            
-              
-                <img src="https://DigitalImageProcessor.github.io/HBMIP_Lab//./images/people/ZhangJin.jpg" alt="Jing Zhang">
-              
-            
+          <!-- 详情页链接改为当前目录下的子文件夹（如zhangjing/） -->
+          <a href="zhangjing/">
+            <!-- 图片路径改为上级目录的images/people/ -->
+            <img src="../images/people/ZhangJin.jpg" alt="Jing Zhang">
           </a>
         </div>
         <div class="info">
@@ -131,25 +87,10 @@
     
 
     
-  
-    
-    
-    
-    
-    
-    
-
-    
-
-    
-      <div class="member">
+    <div class="member">
         <div class="avatar">
-          <a href="../HBMIP_Lab/people/hanxiao/">
-            
-              
-                <img src="https://DigitalImageProcessor.github.io/HBMIP_Lab//./images/people/HanXiao.jpg" alt="Xiao Han">
-              
-            
+          <a href="hanxiao/">
+            <img src="../images/people/HanXiao.jpg" alt="Xiao Han">
           </a>
         </div>
         <div class="info">
@@ -161,30 +102,15 @@
       </div>
     
 
-    
       
         <div class="co-principal-investigator">Lab Leardership</div>
       
     
   
-    
-    
-    
-    
-    
-    
-
-    
-
-    
-      <div class="member">
+    <div class="member">
         <div class="avatar">
-          <a href="../HBMIP_Lab/people/heling/">
-            
-              
-                <img src="https://DigitalImageProcessor.github.io/HBMIP_Lab//./images/people/HeLing.png" alt="Ling He">
-              
-            
+          <a href="heling/">
+            <img src="../images/people/HeLing.png" alt="Ling He">
           </a>
         </div>
         <div class="info">
@@ -197,27 +123,11 @@
     
 
     
-      
-    
   
-    
-    
-    
-    
-    
-    
-
-    
-
-    
-      <div class="member">
+    <div class="member">
         <div class="avatar">
-          <a href="../HBMIP_Lab/people/tangzhonglan/">
-            
-              
-                <img src="https://DigitalImageProcessor.github.io/HBMIP_Lab//./images/people/TangZhongLan.jpg" alt="Zhonglan Tang">
-              
-            
+          <a href="tangzhonglan/">
+            <img src="../images/people/TangZhongLan.jpg" alt="Zhonglan Tang">
           </a>
         </div>
         <div class="info">
@@ -231,24 +141,10 @@
 
     
   
-    
-    
-    
-    
-    
-    
-
-    
-
-    
-      <div class="member">
+    <div class="member">
         <div class="avatar">
-          <a href="../HBMIP_Lab/people/yanggang/">
-            
-              
-                <img src="https://DigitalImageProcessor.github.io/HBMIP_Lab//./images/people/YangGang.jpg" alt="Gang Yang">
-              
-            
+          <a href="yanggang/">
+            <img src="../images/people/YangGang.jpg" alt="Gang Yang">
           </a>
         </div>
         <div class="info">
@@ -285,14 +181,15 @@
 
 
 
-<script src="https://DigitalImageProcessor.github.io/HBMIP_Lab//js/feather.min.js"></script>
+<!-- JS文件改为相对路径 -->
+<script src="../js/feather.min.js"></script>
 <script>
   feather.replace()
 </script>
 
 
-<script type="text/javascript" src="https://DigitalImageProcessor.github.io/HBMIP_Lab//js/jquery-3.7.1.min.js"></script>
-<script type="text/javascript" src="https://DigitalImageProcessor.github.io/HBMIP_Lab//js/jump.js"></script>
+<script type="text/javascript" src="../js/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="../js/jump.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     var menuButton = document.querySelector('.menu-button');
