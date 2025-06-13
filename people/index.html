@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- 修正favicon路径，使用相对路径（从当前people目录上级获取） -->
+    <!-- 修正favicon路径，使用相对路径 -->
     <link rel="icon" href="../images/HBMI_favicon.png" type="image/png">
     <link rel="shortcut icon" href="../images/HBMI_favicon.png" type="image/png">
     
@@ -24,7 +24,7 @@
 </head><body>
 <div class="other-white-navbar">
 	<div class="first-layer-navbar">
-		<!-- 导航Logo链接改为上级目录（根目录），图片路径同步修改 -->
+		<!-- 导航Logo链接指向根目录 -->
 		<a class="navbar-logo" href="../">
 			<img height="30px" src="../images/HBMI.png" alt="HBMIP Lab">
 		</a>
@@ -34,7 +34,7 @@
 	<div class="second-layer-navbar">
 		<button class="menu-button" aria-label="Toggle Menu">&#9776;</button>
 		<ul class="menu-list">
-			<!-- 导航链接改为相对路径 -->
+			<!-- 导航链接使用相对路径 -->
 			<a class="navbar-text" href="../">Home</a>
 			<a class="navbar-text hightlightTitle" href=".">People</a> <!-- 当前页面用.表示 -->
 			<a class="navbar-text" href="../publications">Publications</a>
@@ -71,9 +71,9 @@
 
     <div class="member">
         <div class="avatar">
-          <!-- 详情页链接改为当前目录下的子文件夹（如zhangjing/） -->
+          <!-- 详情页链接指向同级目录下的子文件夹（people/zhangjing/） -->
           <a href="zhangjing/">
-            <!-- 图片路径改为上级目录的images/people/ -->
+            <!-- 图片路径从当前目录（people/）向上一级到根目录的images/people/ -->
             <img src="../images/people/ZhangJin.jpg" alt="Jing Zhang">
           </a>
         </div>
@@ -89,6 +89,7 @@
     
     <div class="member">
         <div class="avatar">
+          <!-- 详情页链接直接指向同级目录下的子文件夹 -->
           <a href="hanxiao/">
             <img src="../images/people/HanXiao.jpg" alt="Xiao Han">
           </a>
@@ -181,7 +182,7 @@
 
 
 
-<!-- JS文件改为相对路径 -->
+<!-- JS文件路径从当前目录（people/）向上一级到根目录的js/ -->
 <script src="../js/feather.min.js"></script>
 <script>
   feather.replace()
