@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HBMIP Lab</title>
+    <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/about/</link>
+    <description>Recent content on HBMIP Lab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://DigitalImageProcessor.github.io/HBMIP_Lab/about/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

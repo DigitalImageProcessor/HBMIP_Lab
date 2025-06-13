@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on HBMIP Lab</title>
+    <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/</link>
+    <description>Recent content in Publications on HBMIP Lab</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A pathology foundation model for cancer diagnosis and prognosis prediction. </title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/pathological-image-processing/nature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/pathological-image-processing/nature/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A two-branch framework for blood pressure estimation using photoplethysmography signals with deep learning and clinical prior physiological knowledge. </title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/one-dimensional-signal/qiaominghong/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/one-dimensional-signal/qiaominghong/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireless ECG Monitoring in Conscious Mice: A Valuable Tool for Investigating Cardiac Function in Myocardial Infarction Research. </title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/one-dimensional-signal/zouzuofeng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/one-dimensional-signal/zouzuofeng/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A wireless physiological parameter monitoring system with a treatment feedback function during neonatal phototherapy. </title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/one-dimensional-signal/ziliang-he/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/one-dimensional-signal/ziliang-he/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>RetCCL: clustering-guided contrastive learning for whole-slide image retrieval. Medical Image Analysis.</title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/pathological-image-processing/wangxiyue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/pathological-image-processing/wangxiyue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>A Calibration-Free Measurement for Monitoring Cellular Calcium Transients Adaptively. </title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/one-dimensional-signal/gao-luo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/one-dimensional-signal/gao-luo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MACG-Net: Multi-axis cross gating network for deformable medical image registration.</title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/yuanwei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/yuanwei/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Path planning algorithm for percutaneous puncture lung mass biopsy procedure based on the multi-objective constraints and fuzzy optimization. </title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/pimb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/pimb/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Automatic tooth segmentation for patients with alveolar clefts guided by tooth descriptors. </title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/gongyuhang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/gongyuhang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Keypoints-based Multi-cue Feature Fusion Network (MF-Net) for action recognition of ADHD children in TOVA assessment. </title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/tangwanyu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/tangwanyu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deep learning-based automated tongue analysis system for assisted Chinese medicine diagnosis. </title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/chentingnan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/chentingnan/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CLC-Net: contextual and local collaborative network for lesion segmentation in diabetic retinopathy images. Neurocomputing.</title>
+      <link>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/wangxiyue2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://DigitalImageProcessor.github.io/HBMIP_Lab/publications/two-dimensional-signal/wangxiyue2/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
